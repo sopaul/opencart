@@ -1,0 +1,49 @@
+11:27:28.163 [main] DEBUG testCases.TC_002_LoginTest - Capturing application debug logs....
+11:27:28.292 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account menu link on the home page
+11:27:28.925 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login menu link under My Account on the home page
+11:27:28.926 [main] INFO  testCases.TC_002_LoginTest - Entering valid email id..
+11:27:29.046 [main] INFO  testCases.TC_002_LoginTest - Entering valid password..
+11:27:29.144 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login button..
+11:27:30.053 [main] INFO  testCases.TC_002_LoginTest - Login test passed
+11:27:30.053 [main] ERROR testCases.TC_002_LoginTest - ******Finished TC_002_LoginTest******
+11:37:20.322 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******Starting TC_001_AccountRegistrationTest******
+11:37:20.326 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Capturing application debug logs....
+11:37:20.427 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account link
+11:37:21.100 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on registration link
+11:37:21.100 [main] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer info
+11:37:22.504 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on continue..
+11:37:22.538 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message..
+11:37:22.541 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******Finished TC_001_AccountRegistrationTest******
+11:37:27.264 [main] INFO  testCases.TC_002_LoginTest - ******Starting TC_002_LoginTest******
+11:37:27.264 [main] DEBUG testCases.TC_002_LoginTest - Capturing application debug logs....
+11:37:27.339 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account menu link on the home page
+11:37:27.781 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login menu link under My Account on the home page
+11:37:27.783 [main] INFO  testCases.TC_002_LoginTest - Entering valid email id..
+11:37:27.884 [main] INFO  testCases.TC_002_LoginTest - Entering valid password..
+11:37:27.952 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login button..
+11:37:28.741 [main] INFO  testCases.TC_002_LoginTest - Login test passed
+11:37:28.741 [main] ERROR testCases.TC_002_LoginTest - ******Finished TC_002_LoginTest******
+00:41:35.276 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******Starting TC_001_AccountRegistrationTest******
+00:41:35.280 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Capturing application debug logs....
+00:41:35.381 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account link
+00:41:36.052 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on registration link
+00:41:36.052 [main] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer info
+00:41:37.445 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on continue..
+00:41:37.472 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message..
+00:41:37.474 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******Finished TC_001_AccountRegistrationTest******
+00:41:42.323 [main] INFO  testCases.TC_002_LoginTest - ******Starting TC_002_LoginTest******
+00:41:42.323 [main] DEBUG testCases.TC_002_LoginTest - Capturing application debug logs....
+00:41:42.419 [main] INFO  testCases.TC_002_LoginTest - Clicked on My Account menu link on the home page
+00:41:42.825 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login menu link under My Account on the home page
+00:41:42.827 [main] INFO  testCases.TC_002_LoginTest - Entering valid email id..
+00:41:42.930 [main] INFO  testCases.TC_002_LoginTest - Entering valid password..
+00:41:43.007 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login button..
+00:41:43.843 [main] INFO  testCases.TC_002_LoginTest - Login test passed
+00:41:43.843 [main] ERROR testCases.TC_002_LoginTest - ******Finished TC_002_LoginTest******
+00:51:44.135 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:51:44.139 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+00:51:44.142 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:51:44.422 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+00:52:29.786 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:52:29.792 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+00:52:29.795 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
