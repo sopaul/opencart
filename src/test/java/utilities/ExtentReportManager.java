@@ -7,11 +7,24 @@ import java.io.IOException;
 
 //import java.net.URL;
 
-
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+
+//For email
+/*
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
+import java.util.Properties;
+*/
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -132,6 +145,10 @@ public class ExtentReportManager implements ITestListener
 			}
 			
 			//The below code sends report as email to the team as soon as its generated 
+			
+			//To send email with attachment
+			//sendEmail(sender email,sender password(encrypted),recipient email);
+			//sendEmail("abc@gmail.com","xyz123xyz","xyz@gmail.com");
 
 			/*
 			 try 
@@ -158,7 +175,70 @@ public class ExtentReportManager implements ITestListener
 			 }
 			 */
 		}
-			
+		/*
+		//User defined method for sending email..
+		public void sendEmail(String senderEmail,String senderPassword,String recipientEmail)
+		{
+			// SMTP server properties
+	        Properties properties = new Properties();
+	        properties.put("mail.smtp.auth", "true");
+	        properties.put("mail.smtp.starttls.enable", "true");
+	        properties.put("mail.smtp.host", "smtp.gmail.com");
+	        properties.put("mail.smtp.port", "587");
+
+	        // Create a Session object
+	        Session session = Session.getInstance(properties, new Authenticator() {
+	           protected PasswordAuthentication getPasswordAuthentication() {
+	                return new PasswordAuthentication(senderEmail, senderPassword);
+	            }
+	        });
+
+	        try {
+	            // Create a MimeMessage object
+	            Message message = new MimeMessage(session);
+
+	            // Set the sender and recipient addresses
+	            message.setFrom(new InternetAddress(senderEmail));
+	            message.setRecipient(Message.RecipientType.TO, new InternetAddress(recipientEmail));
+
+	            // Set the subject
+	            message.setSubject("Test Report with attachment");
+
+	            // Create a MimeMultipart object
+	            Multipart multipart = new MimeMultipart();
+
+	            // Attach the file
+	            String filePath = ".\\reports\\"+repName;
+	            String fileName = repName;
+
+	            MimeBodyPart attachmentPart = new MimeBodyPart();
+	            attachmentPart.attachFile(filePath);
+	            attachmentPart.setFileName(fileName);
+
+	            // Create a MimeBodyPart for the text content
+	            MimeBodyPart textPart = new MimeBodyPart();
+	            textPart.setText("Please find the attached file.");
+
+	            // Add the parts to the multipart
+	            multipart.addBodyPart(textPart);
+	            multipart.addBodyPart(attachmentPart);
+
+	            // Set the content of the message
+	            message.setContent(multipart);
+
+	            // Send the message
+	            Transport.send(message);
+
+	            System.out.println("Email sent successfully!");
+
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	        }
+	            
+		}
+
+
+			*/
 
 
 }
